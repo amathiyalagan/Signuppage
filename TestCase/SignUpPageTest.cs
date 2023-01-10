@@ -12,7 +12,7 @@ namespace ELITSignUpPage.Testcase
         SignUpPage SignUpPage;
 
         [Test, Order(1)]
-        [Category("User Aggreement")]
+        [Category("User Aggree the T&C")]
         public void accepting_user_agreement()
         {
             SignUpPage = new SignUpPage(GetDriver());
@@ -45,7 +45,7 @@ namespace ELITSignUpPage.Testcase
         }
 
         [Test, Order(2)]
-        [Category("User Disaggreement")]
+        [Category("User Disaggree the T&C")]
         public void declining_user_agreement()
         {
             SignUpPage = new SignUpPage(GetDriver());
