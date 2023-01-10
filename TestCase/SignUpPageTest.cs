@@ -20,7 +20,7 @@ namespace ELITSignUpPage.Testcase
             {
                 SignUpPage.GoToPage();
                 SignUpPage.Clickon_Signup();
-                _test.Log(Status.Pass, "Clicked on SignUp Page");
+                _test.Log(Status.Pass, "Clicked on SignUp");
 
                 SignUpPage.Mouseaction();
                 SignUpPage.Accept();
