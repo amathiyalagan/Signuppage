@@ -34,7 +34,7 @@ namespace ELITSignUpPage.Config
             _extent.AttachReporter(htmlReporter);  //
             _extent.AddSystemInfo("Host Name", "ELIT");
             _extent.AddSystemInfo("Environment", "QA");
-            _extent.AddSystemInfo("UserName", "ArunKumar");
+            _extent.AddSystemInfo("UserName", "ArunKumar Mathiyazhan");
         }
 
         [OneTimeTearDown]
